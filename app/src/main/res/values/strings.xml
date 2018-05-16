@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProyectoVictorAutores</string>
+
+    <string-array name="opcionesMenu">
+        <item>AÑADIR</item>
+        <item>MODIFICAR</item>
+        <item>VER</item> </string-array>
+</resources>

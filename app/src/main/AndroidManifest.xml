@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proyecto.rubio.proyectovictorautores">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".añadir.AnnadirAutorActivity"></activity>
+        <activity android:name=".añadir.AnnadirCitaActivityUno"></activity>
+        <activity android:name=".añadir.AnnadirCitaActivityDos"></activity>
+        <activity android:name=".editar.EditarAutorUnoActivity"></activity>
+        <activity android:name=".editar.EditarAutorDosActivity"></activity>
+        <activity android:name=".editar.EditarCitaUnoActivity"></activity>
+        <activity android:name=".editar.EditarCitaDosActivity"></activity>
+        <activity android:name=".ver.VerAutorUnoActivity"></activity>
+        <activity android:name=".ver.VerAutorDosActivity"></activity>
+        <activity android:name=".ver.VerCitaUnoActivity"></activity>
+        <activity android:name=".ver.VerCitaDosActivity"></activity>
+    </application>
+
+</manifest>
