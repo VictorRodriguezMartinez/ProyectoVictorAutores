@@ -24,7 +24,6 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:inputType="textPersonName"
-            android:text="@string/introduceLaCita"
             android:hint="@string/introduceLaCita"/>
 
     </LinearLayout>
@@ -45,7 +44,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/introduceLaFecha"
             android:hint="@string/introduceLaFecha"
             android:inputType="date"
             android:textAlignment="center" />
@@ -66,7 +64,8 @@
             android:id="@+id/buttonAnnadirCita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/anadirCita" />
+            android:text="@string/anadirCita"
+            />
 
     </LinearLayout>
 </LinearLayout>

@@ -25,7 +25,7 @@
             android:textAlignment="center"
             android:inputType="textPersonName"
             android:hint="@string/introduceNombreAutor"
-            android:text="@string/introduceNombreAutor"
+
             />
 
     </LinearLayout>
@@ -47,7 +47,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:hint="@string/introduceFechaAutor"
-            android:text="@string/introduceFechaAutor"
             android:inputType="date"
             android:textAlignment="center" />
 
