@@ -29,12 +29,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
-            <ImageButton
-                android:id="@+id/imageButtonAutores"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+            <Button
+                android:id="@+id/buttonAutores"
+                android:layout_width="417dp"
+                android:layout_height="72dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_lock_lock" />
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:text="Autor" />
 
             <Space
                 android:layout_width="match_parent"

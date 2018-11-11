@@ -1,5 +1,6 @@
 package com.proyecto.rubio.proyectovictorautores.añadir;
 
+import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -46,7 +47,16 @@ public class AnnadirAutorActivity extends AppCompatActivity {
 
                 Toast.makeText(getApplicationContext(),  "Añadido correctamente", Toast.LENGTH_SHORT).show();
 
+                SharedPreferences.Editor editor = getSharedPreferences("ultimoAutorAnadido", MODE_PRIVATE).edit();
+                editor.putString("nombre", editTextNombreAutor.getText().toString());
+                editor.putString("fechaNacimiento", editTextFechaNacimientoAutor.getText().toString());
+                editor.apply();
+
+
+
+
                 finish();
+
 
             }
         });

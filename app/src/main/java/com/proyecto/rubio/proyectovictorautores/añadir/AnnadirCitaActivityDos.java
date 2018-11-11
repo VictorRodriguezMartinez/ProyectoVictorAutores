@@ -29,6 +29,21 @@ public class AnnadirCitaActivityDos extends AppCompatActivity {
 
     }
 
+/*
+    private void cargarPreferencias(){
+        SharedPreferences preferences = getSharedPreferences("nombre", Context.MODE_PRIVATE);
+        String name = preferences.getString("name", "No existe la información");
+        jug.setText("" + name);
+    }
+
+    private void guardarPreferencias() {
+        SharedPreferences preferences = getSharedPreferences("nombre", Context.MODE_PRIVATE);
+        String name = nombre.getText().toString();
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("name", name);
+        editor.commit();
+    }*/
+
     private void inicializarComponentes() {
 
         editTextTextoCita = (EditText) findViewById(R.id.editTextTextoCita);

@@ -16,17 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".añadir.AnnadirAutorActivity"></activity>
-        <activity android:name=".añadir.AnnadirCitaActivityUno"></activity>
-        <activity android:name=".añadir.AnnadirCitaActivityDos"></activity>
-        <activity android:name=".editar.EditarAutorUnoActivity"></activity>
-        <activity android:name=".editar.EditarAutorDosActivity"></activity>
-        <activity android:name=".editar.EditarCitaUnoActivity"></activity>
-        <activity android:name=".editar.EditarCitaDosActivity"></activity>
-        <activity android:name=".ver.VerAutorUnoActivity"></activity>
-        <activity android:name=".ver.VerAutorDosActivity"></activity>
-        <activity android:name=".ver.VerCitaUnoActivity"></activity>
-        <activity android:name=".ver.VerCitaDosActivity"></activity>
+        <activity android:name=".añadir.AnnadirAutorActivity" />
+        <activity android:name=".añadir.AnnadirCitaActivityUno" />
+        <activity android:name=".añadir.AnnadirCitaActivityDos" />
+        <activity android:name=".editar.EditarAutorUnoActivity" />
+        <activity android:name=".editar.EditarAutorDosActivity" />
+        <activity android:name=".editar.EditarCitaUnoActivity" />
+        <activity android:name=".editar.EditarCitaDosActivity" />
+        <activity android:name=".ver.VerAutorUnoActivity" />
+        <activity android:name=".ver.VerAutorDosActivity" />
+        <activity android:name=".ver.VerCitaUnoActivity" />
+        <activity android:name=".ver.VerCitaDosActivity" />
+        <activity android:name=".Opciones" />
+        <activity android:name=".ver.VerUltimoAutorAnadido" />
+        <activity android:name=".Buscar.BuscarAutorUnoActivity"></activity>
     </application>
 
 </manifest>

@@ -1,8 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ProyectoVictorAutores</string>
 
     <string-array name="opcionesMenu">
         <item>AÑADIR</item>
         <item>MODIFICAR</item>
-        <item>VER</item> </string-array>
+        <item>VER</item>
+        <item>BORRAR</item>
+        <item>OPCIONES</item>
+        <item>Ver ultimo autor</item>
+
+        <!---
+        español.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(v.getContext(), MainActivity.class);
+        Locale localizacion = new Locale("es", "ES");
+        Configuration config = new Configuration();
+        config.locale = localizacion;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        startActivityForResult(intent, 0);
+    }
+});
+
+ingles = findViewById(R.id.ingles);
+ingles.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Intent intent2 = new Intent(v.getContext(), MainActivity.class);
+        Locale localizacion = new Locale("en", "GB");
+        Configuration config = new Configuration();
+        config.locale = localizacion;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        startActivityForResult(intent2, 0);
+    }
+});
+
+
+        -->
+    </string-array>
 </resources>

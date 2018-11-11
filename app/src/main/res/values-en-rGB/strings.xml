@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoVictorAutores</string>
+
+    <string-array name="opcionesMenu">
+    <item>ADD</item>
+    <item>MODIFY</item>
+    <item>SEE</item>
+    <item>DELETE</item>
+    <item>OPTIONS</item>
+        <item>View last author</item>
+    </string-array>
+</resources>
