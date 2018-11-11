@@ -2,6 +2,40 @@
 <resources>
     <string name="app_name">ProyectoVictorAutores</string>
 
+    <!---Añadir autor/activity_add_autor-->
+    <string name="introduceNombreAutor">Introduzca nombre autor</string>
+    <string name="introduceFechaAutor">Introduzca aquí la fecha</string>
+    <string name="anadirAutor">Añadir Autor</string>
+
+    <!---Añadir autor/activity_add_cita_dos-->
+    <string name="introduceLaCita">Introduzca aquí la cita</string>
+    <string name="introduceLaFecha">Introduzca aquí la fecha</string>
+    <string name="anadirCita">Introduzca aquí la cita</string>
+
+    <!---Añadir cita/activity_add_cita_uno OK-->
+
+    <!---Editar autor OK-->
+    <string name="guardarCambios">Guardar cambios</string>
+    <string name="editarAutor">Editar Autor</string>
+    <string name="editarCita">Editar Cita</string>
+
+    <!---MAIN OK-->
+    <string name="autor">Autor</string>
+    <string name="cita">Cita</string>
+
+    <!---OPCIONES OK-->
+    <string name="espanol">Español</string>
+    <string name="ingles">Inglés</string>
+
+
+    <!---ULTIMO AUTOR AÑADIDO OK-->
+    <string name="nombre">Nombre</string>
+    <string name="fecha">Fecha</string>
+
+
+    <!---
+    SPING
+    -->
     <string-array name="opcionesMenu">
         <item>AÑADIR</item>
         <item>MODIFICAR</item>
@@ -9,34 +43,10 @@
         <item>BORRAR</item>
         <item>OPCIONES</item>
         <item>Ver ultimo autor</item>
-
-        <!---
-        español.setOnClickListener(new View.OnClickListener() {
-    @Override
-    public void onClick(View v) {
-        Intent intent = new Intent(v.getContext(), MainActivity.class);
-        Locale localizacion = new Locale("es", "ES");
-        Configuration config = new Configuration();
-        config.locale = localizacion;
-        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-        startActivityForResult(intent, 0);
-    }
-});
-
-ingles = findViewById(R.id.ingles);
-ingles.setOnClickListener(new View.OnClickListener() {
-    @Override
-    public void onClick(View v) {
-        Intent intent2 = new Intent(v.getContext(), MainActivity.class);
-        Locale localizacion = new Locale("en", "GB");
-        Configuration config = new Configuration();
-        config.locale = localizacion;
-        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-        startActivityForResult(intent2, 0);
-    }
-});
-
-
-        -->
     </string-array>
+
+
+
+
+
 </resources>

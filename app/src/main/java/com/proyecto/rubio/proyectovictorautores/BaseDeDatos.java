@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class BaseDeDatos extends SQLiteOpenHelper {
 
-    String sqlCreateAutores = "CREATE TABLE Autor (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, nombre STRING, fecha_nacimiento STRING)";
+    String sqlCreateAutores = "CREATE TABLE Autor (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, nombre STRING, fecha_nacimiento STRING, genero STRING, nacionalidad STRING)";
     String sqlCreateCitas = "CREATE TABLE Cita (id INTEGER PRIMARY KEY AUTOINCREMENT, cita STRING, id_autor INTEGER REFERENCES [Autor] (id), fecha DATE)";
 
 

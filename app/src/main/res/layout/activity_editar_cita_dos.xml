@@ -78,13 +78,13 @@
             android:id="@+id/ButtonEditarAutorDeCita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Editar Autor" />
+            android:text="@string/editarAutor" />
 
         <Button
             android:id="@+id/buttonEditarCita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Editar Cita" />
+            android:text="@string/editarCita" />
 
     </LinearLayout>
 </LinearLayout>

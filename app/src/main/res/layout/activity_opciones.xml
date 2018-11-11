@@ -12,14 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Español" />
+        android:text="@string/espanol" />
 
     <Button
         android:id="@+id/buttonEn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Inglés" />
+        android:text="@string/ingles" />
 
 
 </LinearLayout>

@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ProyectoVictorAutores</string>
+    <string name="app_name">ProyectoVictorAuthors</string>
+
+
+
+    <!---Añadir autor/activity_add_autor-->
+    <string name="introduceNombreAutor">Introduce author name</string>
+    <string name="introduceFechaAutor">Introduce author date</string>
+    <string name="anadirAutor">Add Author</string>
+
+    <!---Añadir autor/activity_add_cita_dos-->
+    <string name="introduceLaCita">Enter the appointment here</string>
+    <string name="introduceLaFecha">Enter the date here</string>
+    <string name="anadirCita">Enter the appointment here</string>
+
+    <!---Añadir cita/activity_add_cita_uno OK-->
+
+    <!---Editar autor OK-->
+    <string name="guardarCambios">Save changes</string>
+    <string name="editarAutor">Edit Author</string>
+    <string name="editarCita">Edit appointment</string>
+
+    <!---MAIN OK-->
+    <string name="autor">Author</string>
+    <string name="cita">Appointment</string>
+
+    <!---OPCIONES OK-->
+    <string name="espanol">Spanish</string>
+    <string name="ingles">English</string>
+
+
+    <!---ULTIMO AUTOR AÑADIDO OK-->
+    <string name="nombre">Name</string>
+    <string name="fecha">Date</string>
+
+
+    <!---
+    SPING
+    -->
+
 
     <string-array name="opcionesMenu">
     <item>ADD</item>

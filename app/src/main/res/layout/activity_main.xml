@@ -35,7 +35,7 @@
                 android:layout_height="72dp"
                 android:layout_weight="1"
                 android:drawableStart="@android:drawable/btn_star_big_on"
-                android:text="Autor" />
+                android:text="@string/autor" />
 
             <Space
                 android:layout_width="match_parent"
@@ -57,11 +57,11 @@
 
             <Button
                 android:id="@+id/buttonCitas"
-                android:layout_width="401dp"
-                android:layout_height="65dp"
+                android:layout_width="471dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:drawableStart="?android:attr/actionModeSplitBackground"
-                android:text="Cita" />
+                android:text="@string/cita" />
 
 
 
