@@ -26,7 +26,7 @@ public class VerAutorUnoActivity extends AppCompatActivity {
     ListView lista;
 
     private static final int REQUEST_CODE=10;
-    BaseDeDatos autores = new BaseDeDatos(this, "BaseDeDatos", null, 1);;
+    BaseDeDatos autores = new BaseDeDatos(this, "BaseDeDatos", null, 1);
     SQLiteDatabase db;
     int id;
 

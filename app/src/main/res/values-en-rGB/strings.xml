@@ -13,6 +13,7 @@
     <string name="introduceLaCita">Enter the appointment here</string>
     <string name="introduceLaFecha">Enter the date here</string>
     <string name="anadirCita">Enter the appointment here</string>
+    <string name="guardarCita">Save the appointment</string>
 
     <!---Añadir cita/activity_add_cita_uno OK-->
 

@@ -11,6 +11,7 @@
     <string name="introduceLaCita">Introduzca aquí la cita</string>
     <string name="introduceLaFecha">Introduzca aquí la fecha</string>
     <string name="anadirCita">Introduzca aquí la cita</string>
+    <string name="guardarCita">Guardar la cita</string>
 
     <!---Añadir cita/activity_add_cita_uno OK-->
 
