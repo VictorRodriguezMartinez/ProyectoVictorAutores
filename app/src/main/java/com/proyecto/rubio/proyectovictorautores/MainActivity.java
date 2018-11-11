@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
     //Declaracion de obsjetos
     Spinner spinner;
-    ImageButton imagenAutores, imagenCitas;
-    Button botonAutores;
+    //ImageButton imagenAutores, imagenCitas;
+    Button botonAutores, botonCitas;
      static  int modoActual=0;//indexamos los los diferentes modos en la funcion onCreateOptionsMenu (0=añadir , 1=editar, 2=ver, 3=borrar)
 
     @Override
@@ -51,8 +51,9 @@ public class MainActivity extends AppCompatActivity {
     private void inicializarComponentes() {
 
         //imagenAutores = (ImageButton) findViewById(R.id.imageButtonAutores);
-        imagenCitas = (ImageButton) findViewById(R.id.imageButtonCitas);
+        //imagenCitas = (ImageButton) findViewById(R.id.imageButtonCitas);
         botonAutores = (Button) findViewById(R.id.buttonAutores);
+        botonCitas = (Button) findViewById(R.id.buttonCitas);
 
         //Inicializamos un nuevo objeto de tipo BaseDeDatos llamado autores
         BaseDeDatos autores = new BaseDeDatos(this, "BaseDeDatos", null, 1);
@@ -89,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        imagenCitas.setOnClickListener(new View.OnClickListener() {
+        botonCitas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
