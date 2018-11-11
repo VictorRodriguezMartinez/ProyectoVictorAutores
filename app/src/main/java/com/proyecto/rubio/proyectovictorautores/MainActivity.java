@@ -191,6 +191,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.spinner:
+
                 Toast.makeText(getApplicationContext(),  item.getTitle(), Toast.LENGTH_SHORT).show();
                 return true;
                 default:
